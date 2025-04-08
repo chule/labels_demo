@@ -80,8 +80,8 @@ async function initSciChart(rootElement: string | HTMLDivElement) {
     topCornerRadius: 5,
     bottomCornerRadius: 5,
     dataLabels: {
-      horizontalTextPosition: EHorizontalTextPosition.Right,
-      verticalTextPosition: EVerticalTextPosition.Above,
+      horizontalTextPosition: EHorizontalTextPosition.Center,
+      verticalTextPosition: EVerticalTextPosition.Center,
       positionMode: EColumnDataLabelPosition.Inside,
       style: {
         fontSize: 16,
