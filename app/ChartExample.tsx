@@ -45,30 +45,6 @@ async function initSciChart(rootElement: string | HTMLDivElement) {
     new NumericAxis(wasmContext, { axisTitle: "Y Axis", growBy })
   );
 
-  // const yAxis = sciChartSurface.yAxes.get(0);
-  // yAxis.visibleRange = new NumberRange(0, 10);
-
-  // const root = stratify()
-  //   .id(function (d) {
-  //     return (d as TreeDataItem).name;
-  //   })
-  //   .parentId(function (d) {
-  //     return (d as TreeDataItem).parent;
-  //   })(data);
-
-  // root.sum(function (d) {
-  //   return +(d as TreeDataItem).value;
-  // });
-
-  // const width = 15;
-  // const height = 10;
-
-  // treemap().size([width, height]).padding(0.05)(root);
-
-  // const treemapData = root.leaves();
-
-  // console.log(treemapData);
-
   const xValues = [0, 5, 10, 40];
   const yValues = [10, 30, 40, 45];
   const x1Values = [5, 15, 30, 60];
